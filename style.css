@@ -6,9 +6,10 @@ body {
 }
 
 .logo {
-  display: block;
-  margin: 0 auto;
-  width: 150px; /* adjust size */
+  display: block;       /* block-level to allow auto margins */
+  margin: 0 auto;       /* center horizontally */
+  width: 100px;          /* small size */
+  height: auto;         /* keep aspect ratio */
 }
 
 h1 {
